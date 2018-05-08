@@ -1,0 +1,79 @@
+
+
+
+
+
+
+
+// MODERNIZR conflict with BOOTSTRAP:
+// html.hidden{
+// 	display:initial !important;
+// 	visibility:initial !important;
+// }
+
+
+// @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";
+
+
+// @import "bourbon";
+// @import "bourbon", "neat";
+
+$scott-gold: #ebaf45;
+
+@import "SITE-VARS";
+
+
+@import "pt/_PT-MIXINS";
+
+
+@import "pt/_pt-Library";
+
+
+
+@import "sasskits/_site-base";
+
+
+// @import "sasskits/typography";
+
+@import "sasskits/ab-sections";
+@import "sasskits/pt-ab-section";
+
+@import "sasskits/pt-homeplate.scss";
+
+@import "sasskits/pt-slicks.scss";
+@import "sasskits/pt-navspy.scss";
+
+
+
+
+
+
+// NAVIGATION OPTIONS:
+// sidr.js BASED SIDE MENU:
+// @import "sasskits/sidr/sidr_custom.scss";
+
+
+// BootStrap BASED TOP MENU:
+// @import "sasskits/Navigation-TopBar.scss";
+
+
+// Multi Level Dropdown Menu:
+// @import "sasskits/Navigation-MultiLevelDropdown.scss";
+
+
+@import "scott-menu.scss";
+
+
+
+
+
+
+.isStuck{
+    // border-bottom:10px dotted purple;
+}
+
+
+
+body{
+    // border: 10px dashed red !important;
+}

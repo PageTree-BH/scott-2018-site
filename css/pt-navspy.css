@@ -1,0 +1,35 @@
+.pt-navbar {
+  display: block; }
+  .pt-navbar > ul {
+    display: block;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0; }
+    .pt-navbar > ul li {
+      display: inline-block; }
+
+/* 
+
+    li{
+        &.active{
+            a{
+                color:white;
+                background-color:$pt-color-primary;
+                &:hover, &:focus, &:active, &:focus:hover{
+                    // color:$pt-color-primary;
+                    background-color:lighten($pt-color-primary, 5%);
+                }   
+            }
+        }
+        a{
+            color:$pt-color-primary;
+            &:hover, &:focus, &:active, &:focus:hover{
+                color:white;
+                background-color:$pt-color-primary;
+            }   
+        }
+    }
+
+
+
+ */

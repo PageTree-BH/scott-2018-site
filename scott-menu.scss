@@ -1,0 +1,373 @@
+
+
+
+
+
+#scott_homeplate{
+    position: relative;
+    width:100%;
+    // height:100%;
+    // height:95vh;
+    // min-height:500px;
+    // overflow:hidden;
+border:1px solid green;
+background:lightgrey;
+    // background-image:url('/assets/img/sample/lorempixel-1.jpg');
+    // background-position: center;
+    // background-size: cover;
+
+    // img{
+    //     width:100%;
+    //     height:auto;
+    //     position: relative;
+    //     display:block;
+    // }
+
+    #homeplate_slick-imgs{
+        position: relative;
+        z-index: 2;
+
+        // position: absolute;
+        // top:0; left:0; bottom:0; right:0;
+        // height:100%; width:100%;
+        //
+
+        // img{
+        //     position: relative;
+        //     display:block;
+        //     width:100%;
+        //     height:auto;
+        // }
+
+    }
+
+    // #homeplate_slick-titles{
+    //     border:1px solid red;
+    //     display: block;
+    //     position: absolute;
+    //     top:0; left:0; bottom:0; right:0;
+    //     width:100%; height:100%;
+    //     // left:50%; top:50%;
+    //     // transform:translate(-50% -50%);
+    //     z-index: 5;
+    //
+    //     .slick-slide{
+    //         position: absolute;
+    //         top:0; left:0; bottom:0; right:0;
+    //
+    //         border:4px solid blue;
+    //         display:flex;
+    //         flex-direction: column;
+    //         height:100%; width:100%;
+    //     }
+    // }
+
+
+    .shp-slide{
+        // position: absolute;
+        position: relative;
+        // top:0; left:0; bottom:0; right:0;
+        width:100%; height:100%;
+        // min-height:100vh;
+        // max-height:100vh;
+
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        //
+
+        border:1px solid blue;
+
+        // img{
+            // height:100%; width:100%;
+            // top:0; left:0; bottom:0; right:0;
+            // position: absolute;
+            // position: relative;
+            // display: block;
+            // object-fit: cover;
+        // }
+
+        .shp-bgs{
+            // position: absolute;
+            position: relative;
+            // top:0; left:0; bottom:0; right:0;
+            // width:100%; height:100%;
+            width:100%;
+            height:90vh;
+            // width:100%;
+            z-index: 2;
+            // opacity:0.5;
+            border:1px solid gold;
+
+            img{
+                // border:2px solid red;
+                position: absolute;
+                // position: relative;
+                // top:0; left:0; bottom:0; right:0;
+                width:100%; height:100%;
+                // display:block;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+        .shp-titles{
+            border:1px solid red;
+            // position: relative;
+            position: absolute;
+            top:50%;
+            left:50%;
+            // width:90%;
+            // max-width:400px;
+            transform:translate(-50%, -50%);
+            z-index: 5;
+            text-align: center;
+            // color:white;
+        }
+
+    }
+
+}
+
+
+//
+
+
+._inner{
+    position: relative;
+    // max-width:800px;
+    width:100%;
+    padding:0 2em;
+    margin:auto;
+}
+
+.scrollY{
+    position: absolute;
+    top:0; left:0; bottom:0; right:0;
+    width:100%; height:100%;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// img[class^="scott_logo"] {
+//     display:block;
+//     border:1px dashed purple;
+//     width:auto;
+//     height:auto;
+//     // max-width:300px;
+//
+//     &[class$="-sm"]{
+//         border-color:green;
+//     }
+//     &[class$="-lg"]{
+//
+//     }
+// }
+
+
+
+
+img.scott_logo-sm{
+    width:100px;
+    height:auto;
+    display:block;
+    visibility:visible;
+    opacity:1;
+    transition:0.5s;
+}
+
+img.scott_logo-lg{
+
+    display:block;
+    margin:10px 0 0 0;
+    width:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#scott_site_navigation{
+    // padding:
+    position: absolute;
+    z-index:100;
+    // top:0;
+    // left:0; right:0;
+    // float:left;
+    width:100%;
+    // position: sticky;
+    // margin-top:-80vh;
+    top:15vh;
+    // margin-top:30vh;
+
+    display:flex;
+    flex-direction:column;
+
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    &.isStuck{
+        // border-bottom:1px solid red;
+        // position:fixed;
+        // left:0; right:0;
+        // top:0;
+        #scott_top_menu{
+            // height:100px;
+        }
+
+        .scott_logo-sm{
+            display:block;
+            visibility:visible;
+            opacity:1;
+            transition:0.5s;
+        }
+
+        nav#scott_top_nav{
+            // left:0px;
+            padding-left:100px;
+        }
+
+    }
+}
+
+
+
+#scott_top_menu{
+    position: relative;
+    // height:150px;
+    background-color:rgba(0,0,0,0.6);
+    transition: 0.5s;
+
+}
+
+nav#scott_top_nav {
+    // border:1px solid red;
+
+    transition:0.3s;
+
+    display:flex;
+    // position: relative;
+    // left:-100px;
+    padding-left:-100px;
+
+    a, button{
+        cursor: pointer;
+        text-decoration: none;
+        color:rgba(white, 0.8);
+        transition: color 0.2s;
+
+        &:hover,&:focus{
+            text-decoration: none;
+            color:rgba(white, 1);
+        }
+    }
+
+    .scott_logo-sm{
+        position:absolute;
+        opacity:0.0;
+        visibility:hidden;
+        bottom:5px;
+        transform:translateX(-100%);
+        transition:0.2s;
+    }
+
+
+    ul{
+        margin:0;
+        padding:0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        li{
+            // margin:10px;
+            padding:10px;
+            white-space: nowrap;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#scott_side_menu{
+    position: absolute;
+    top:100px;
+    background:$scott-gold;
+    width:300px;
+    height:95vh;
+    transition:0.4s transform;
+
+    &.menu_in{     transform:translateX(0%);        }
+    &.menu_out{    transform:translateX(-100%);     }
+
+    nav{
+
+        padding:2em 1em 4em 3em;
+
+        ul{
+            list-style-type: none;
+            margin:0; padding:0;
+
+            >li{
+                padding:0em;
+                text-transform: uppercase;
+                // border:1px solid blue;
+            }
+            li{
+                li{
+                    padding:0.5em;
+                    text-transform: capitalize;
+                }
+            }
+            ul{
+                padding:0.5em;
+            }
+
+
+        }
+
+        a{
+            color:#333;
+            display:block;
+            width:100%;
+            &:hover,&:focus{
+                color:#000;
+                text-decoration: none;
+            }
+        }
+    }
+
+}
