@@ -11,6 +11,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_deploy\/assets\/homeplate\/bg-g.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 694927,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/bg-g.jpg",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/bg-g.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_deploy\/assets\/homeplate\/bg-m.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 443172,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/bg-m.jpg",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/bg-m.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_deploy\/assets\/img\/sample\/lorempixel-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

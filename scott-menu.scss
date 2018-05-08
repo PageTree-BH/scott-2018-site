@@ -10,7 +10,7 @@
     // height:95vh;
     // min-height:500px;
     // overflow:hidden;
-border:1px solid green;
+// border:1px solid green;
 background:lightgrey;
     // background-image:url('/assets/img/sample/lorempixel-1.jpg');
     // background-position: center;
@@ -78,7 +78,7 @@ background:lightgrey;
         align-content: center;
         //
 
-        border:1px solid blue;
+        // border:1px solid blue;
 
         // img{
             // height:100%; width:100%;
@@ -99,7 +99,7 @@ background:lightgrey;
             // width:100%;
             z-index: 2;
             // opacity:0.5;
-            border:1px solid gold;
+            // border:1px solid gold;
 
             img{
                 // border:2px solid red;
@@ -113,17 +113,17 @@ background:lightgrey;
             }
         }
         .shp-titles{
-            border:1px solid red;
+            // border:1px solid red;
             // position: relative;
             position: absolute;
             top:50%;
             left:50%;
-            // width:90%;
-            // max-width:400px;
+            width:90%;
+            max-width:400px;
             transform:translate(-50%, -50%);
             z-index: 5;
             text-align: center;
-            // color:white;
+            color:white;
         }
 
     }
@@ -193,6 +193,7 @@ img.scott_logo-lg{
     display:block;
     margin:10px 0 0 0;
     width:300px;
+    max-width:85vw;
 }
 
 
@@ -327,7 +328,7 @@ nav#scott_top_nav {
     top:100px;
     background:$scott-gold;
     width:300px;
-    height:95vh;
+    height:100vh;
     transition:0.4s transform;
 
     &.menu_in{     transform:translateX(0%);        }

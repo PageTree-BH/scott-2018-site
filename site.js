@@ -18,7 +18,7 @@ Modernizr:true, jQuery:true, ssm:true
 
 
 
-// PT._isDevMode = true;
+PT._isDevMode = false;
 
 $(function() {
     // console.log('site specific js file');
@@ -28,7 +28,7 @@ $(function() {
 
 
 
- 
+
 
 
 var SITE = {
@@ -104,11 +104,11 @@ var SITE = {
         .addTo(PT.SM_CTRL);
 
         scene1.offset($('.scott_logo-lg').outerHeight(true));
-        scene1.addIndicators({name:"#scott_site_navigation " + thisItem });
+        // scene1.addIndicators({name:"#scott_site_navigation " + thisItem });
 
 
 
-console.log('!!!!!!!!!!! ', $('.scott_logo-lg').outerHeight(true));
+// console.log('!!!!!!!!!!! ', $('.scott_logo-lg').outerHeight(true));
 
 
         $(window).resize( function(){
