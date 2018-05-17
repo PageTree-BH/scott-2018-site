@@ -1,55 +1,55 @@
 
 
 /*
-    global 
-    PT:true, 
-    SITE:true, 
-    TimelineMax:true, 
-    TweenMax:true, 
-    TweenLite:true, 
-    SplitText:true, 
-    Linear:true, 
-    Elastic:true, 
-    Power1:true, 
-    Power2:true, 
-    Power3:true, 
-    Power4:true, 
-    Bounce:true, 
-    ScrollMagic:true, 
-    FastClick:true, 
-    enquire:true, 
-    Justice:true, 
-    ScrollMagic:true, 
+    global
+    PT:true,
+    SITE:true,
+    TimelineMax:true,
+    TweenMax:true,
+    TweenLite:true,
+    SplitText:true,
+    Linear:true,
+    Elastic:true,
+    Power1:true,
+    Power2:true,
+    Power3:true,
+    Power4:true,
+    Bounce:true,
+    ScrollMagic:true,
+    FastClick:true,
+    enquire:true,
+    Justice:true,
+    ScrollMagic:true,
     Modernizr:true,
-    PT_UTILS:true, 
+    PT_UTILS:true,
     jQuery:true,
     ssm:true
 */
-    
 
 
 
-  
 
+
+ 
 
 
 
 // Custom JS Application Code
 
 
-  
- 
+
+
 
 
 /* GREENSOCK ANIMIATION PLATFORM : THE KING OF TWEENING! */
-// @codekit-prepend "../lib/greensock/minified/TweenMax.min.js"  
-// @codekit-prepend "../lib/greensock/minified/jquery.gsap.min.js" 
+// @codekit-prepend "../lib/greensock/minified/TweenMax.min.js"
+// @codekit-prepend "../lib/greensock/minified/jquery.gsap.min.js"
 // @codekit-prepend "../lib/greensock/minified/plugins/ScrollToPlugin.min.js"
 // @codekit-prepend "../lib/greensock/minified/plugins/ColorPropsPlugin.min.js"
 // @codekit-prepend "../lib/greensock/minified/plugins/CSSRulePlugin.min.js"
 // @codekit-prepend "../lib/greensock/minified/plugins/RoundPropsPlugin.min.js"
 
- 
+
 
 // @        codekit-prepend "../lib/greensock/minified/plugins/MorphSVGPlugin.min.js"
 // @        codekit-prepend "../lib/greensock/minified/utils/SplitText.min.js"
@@ -75,7 +75,7 @@
 
 
 /* PERFORMANCE METRIC BAR WITH A STREAMING FPS GRAPH.*/
-// @codekit-prepend "../lib/justice/justice.min.js"
+// @ codekit-prepend "../lib/justice/justice.min.js"
 
 
 
@@ -87,42 +87,42 @@
 /* SIMPLE STATE MANAGER IS SIMILAR TO ENQUIRE.JS.. BUT NEWER AND BETTER : http://www.simplestatemanager.com/ */
 // @codekit-prepend "../lib/simple-state-manager/ssm.min.js"
 
- 
-  
+
+
 
 
 /* SIMPLE STATE MANAGER IS SIMILAR TO ENQUIRE.JS.. BUT NEWER AND BETTER : http://www.simplestatemanager.com/ */
 // @codekit-prepend "../sasskits/slick/slick.js"
 
- 
-  
 
 
 
 
 
- 
+
+
+
 
 
 
 
 
 /* CREATES ACCORDION MENUES FROM NESTED UNORDERED LISTS*/
-// @codekit-prepend "../lib/navgoco/jquery.navgoco.min.js"
+// @   codekit-prepend "../lib/navgoco/jquery.navgoco.min.js"
 
 
 /* SIDR.JS    SIDEBAR MENU PLUGIN:*/
-// @codekit-prepend "../lib/sidr/jquery.sidr.min.js"
+// @   codekit-prepend "../lib/sidr/jquery.sidr.min.js"
 
 
 
 
 
- 
 
 
 
- 
+
+
 
 
 
@@ -143,25 +143,3 @@
 
 
 // console.log("The whole lib lot is in the house!");
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

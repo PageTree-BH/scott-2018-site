@@ -1,5 +1,5 @@
 
-/* 
+/*
 
 
 
@@ -13,7 +13,7 @@
 
 
 
- 
+
 
 // @import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 // @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
@@ -28,7 +28,7 @@ $font-body: 'Droid Sans', Helvetica, Arial, sans-serif;
 :root{
 	font-size:16px;
 }
-html{ 
+html{
 	font: 100%/1;
 }
 body{
@@ -40,14 +40,14 @@ body{
 h1,h2,h3,h4,h5,h6{
 	font-family: $font-header;
 	text-transform:uppercase;
-	// letter-spacing:0.1em;	
+	// letter-spacing:0.1em;
 	// font-weight:300;
 
 	>span{
 		text-transform:capitalize;
 		font-style:italic;
 		display:block;
-		font-size:0.7em; 
+		font-size:0.7em;
 		// color:$apg-text-dark-2;
 		margin-bottom:1em;
 		margin-top:0.7em;
@@ -72,79 +72,44 @@ p{
 // }
 
 
- 
 
 
 
 
-.btn-ghost{
-  color:white;
-  background-color: transparent;
-  border: 1px solid white;
-  
-  text-transform: uppercase;
-  border-radius:0;
-  transition:0.2s;
-
-  &:hover, &:focus{
-    border: 1px solid $pt-color-primary;
-    background-color: $pt-color-primary;
-    color:white;
-  }
-
-}
-
-
-
-.btn-primary,
-.btn-orange{
-  color:white;
-  background-color: $pt-color-primary;
-  border: 1px solid $pt-color-primary;
-  
-  text-transform: uppercase;
-  border-radius:0;
-  transition:0.1s;
-
-  &:hover, &:focus{
-    border: 1px solid $pt-color-primary;
-    background-color:white;
-    color:$pt-color-primary;
-  }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//
+// .btn-ghost{
+//   color:white;
+//   background-color: transparent;
+//   border: 1px solid white;
+//
+//   text-transform: uppercase;
+//   border-radius:0;
+//   transition:0.2s;
+//
+//   &:hover, &:focus{
+//     border: 1px solid $pt-color-primary;
+//     background-color: $pt-color-primary;
+//     color:white;
+//   }
+//
+// }
+//
+//
+//
+// .btn-primary,
+// .btn-orange{
+//   color:white;
+//   background-color: $pt-color-primary;
+//   border: 1px solid $pt-color-primary;
+//
+//   text-transform: uppercase;
+//   border-radius:0;
+//   transition:0.1s;
+//
+//   &:hover, &:focus{
+//     border: 1px solid $pt-color-primary;
+//     background-color:white;
+//     color:$pt-color-primary;
+//   }
+//
+// }

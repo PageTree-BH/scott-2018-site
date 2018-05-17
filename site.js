@@ -45,11 +45,48 @@ var SITE = {
 
         SITE.buildSiteNavigation();
 
-        SITE.buildHomePlate();
+        // SITE.buildHomePlate();
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // $('[data-pt-scroll-to]').each(function (index, element){
+        //     console.log(element);
+        //     $(element).click(function(e){
+        //         e.preventDefault();
+        //         console.log($(this).data('pt-scroll-to'));
+        //         TweenMax.to(window, 0.5, { scrollTo:{ y:"#diff" }, ease:Power4.easeInOut } );
+        //     });
+        // });
+
+
+        $('[data-pt-scroll-to]').click(function(e) {
+            e.preventDefault();
+            var _targetId = $(this).data('pt-scroll-to');
+            var _scrollTo = $(_targetId).offset().top;
+            console.log(_scrollTo);
+            TweenMax.to(window, 0.5, { scrollTo:{ y:_scrollTo }, ease:Power4.easeInOut } );
+        });
+
+
+
+
+
+
+
 
     }
 
-    ,buildHomePlate: function() {
+    // ,buildHomePlate: function() {
         // console.log('buildHomePlate()');
         // $("#homeplate_slick-imgs").slick({
         //         fade: true,
@@ -76,22 +113,22 @@ var SITE = {
         //         autoplay: true,
         //         asNavFor: '#homeplate_slick-imgs',
         //     })
-    }
+    // }
 
-    ,buildSiteNavigation: function() {
+    ,
+    buildSiteNavigation: function() {
+        console.log('buildSiteNavigation()');
 
         $('#scott_menu_btn').click(function(e){
             e.preventDefault();
             $('#scott_side_menu').toggleClass('menu_out');
         });
 
-
         $("#scott_side_menu").css({'top': $("#scott_top_menu").outerHeight(true)});
-
 
         // PT.log('PT.makeSticky() ' + item, 'green');
 
-        var thisItem = $("#scott_site_navigation");
+        var thisItem = $(".theme-home").find("#scott_site_navigation");
         // var thisData = thisItem.data('pt-sticky');
         // var thisOffset = thisData.offset;
 
@@ -106,18 +143,27 @@ var SITE = {
         scene1.offset($('.scott_logo-lg').outerHeight(true));
         // scene1.addIndicators({name:"#scott_site_navigation " + thisItem });
 
-
-
-// console.log('!!!!!!!!!!! ', $('.scott_logo-lg').outerHeight(true));
-
-
         $(window).resize( function(){
             if( scene1.state() === "DURING") {
                 TweenMax.set(thisItem, {width:'100%'} );
             }
         });
 
+
+
+
+
+
+
     }
+
+
+
+
+
+
+
+
 
 
 };
