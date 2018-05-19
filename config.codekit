@@ -232,11 +232,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_deploy\/scott-navigation-interior.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_deploy\/scott-navigation-interior.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_deploy\/scott-navigation.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_deploy\/scott-navigation.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_deploy\/scott-rod.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_deploy\/scott-rod.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -11217,21 +11235,14 @@
 		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
-	"\/scott-menu.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
+	"\/scott-navigation-interior.kit": {
+		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scott-menu.scss",
-		"outputAbbreviatedPath": "\/css\/scott-menu.css",
+		"inputAbbreviatedPath": "\/scott-navigation-interior.kit",
+		"outputAbbreviatedPath": "\/_deploy\/scott-navigation-interior.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
-		"useLibsass": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/scott-navigation.kit": {
 		"fileType": 2048,
@@ -11239,6 +11250,31 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scott-navigation.kit",
 		"outputAbbreviatedPath": "\/_deploy\/scott-navigation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/scott-navigation.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scott-navigation.scss",
+		"outputAbbreviatedPath": "\/css\/scott-navigation.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
+		"useLibsass": 0
+		},
+	"\/scott-rod.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scott-rod.kit",
+		"outputAbbreviatedPath": "\/_deploy\/scott-rod.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -11284,15 +11320,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/site-nav.kit",
 		"outputAbbreviatedPath": "\/_deploy\/site-nav.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/site-navspy.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/site-navspy.kit",
-		"outputAbbreviatedPath": "\/_deploy\/site-navspy.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -11363,15 +11390,6 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"useLibsass": 1
-		},
-	"\/slick-sliders.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/slick-sliders.kit",
-		"outputAbbreviatedPath": "\/_deploy\/slick-sliders.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [

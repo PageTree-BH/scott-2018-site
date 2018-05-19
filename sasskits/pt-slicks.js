@@ -11,7 +11,7 @@
 
 
 
-$(function() { 
+$(function() {
 
 
     // $('.homeplate').on('click', function(e){
@@ -22,36 +22,36 @@ $(function() {
     PT.buildSlicks();
 });
 
- 
-   
- 
- 
+
+
+
+
 
 
 // PT.helloTest = function() {
 //     console.log('helloTest()');
 // },
 
- 
-                                                                                     
-                                                                                                 
-                                                                                                 
-                                                                                                 
-                                                                                                 
-/*                                                                                                 
-    ########  ##     ## #### ##       ########      ######  ##       ####  ######  ##    ##  ######  
-    ##     ## ##     ##  ##  ##       ##     ##    ##    ## ##        ##  ##    ## ##   ##  ##    ## 
-    ##     ## ##     ##  ##  ##       ##     ##    ##       ##        ##  ##       ##  ##   ##       
-    ########  ##     ##  ##  ##       ##     ##     ######  ##        ##  ##       #####     ######  
-    ##     ## ##     ##  ##  ##       ##     ##          ## ##        ##  ##       ##  ##         ## 
-    ##     ## ##     ##  ##  ##       ##     ##    ##    ## ##        ##  ##    ## ##   ##  ##    ## 
-    ########   #######  #### ######## ########      ######  ######## ####  ######  ##    ##  ######  
+
+
+
+
+
+
+/*
+    ########  ##     ## #### ##       ########      ######  ##       ####  ######  ##    ##  ######
+    ##     ## ##     ##  ##  ##       ##     ##    ##    ## ##        ##  ##    ## ##   ##  ##    ##
+    ##     ## ##     ##  ##  ##       ##     ##    ##       ##        ##  ##       ##  ##   ##
+    ########  ##     ##  ##  ##       ##     ##     ######  ##        ##  ##       #####     ######
+    ##     ## ##     ##  ##  ##       ##     ##          ## ##        ##  ##       ##  ##         ##
+    ##     ## ##     ##  ##  ##       ##     ##    ##    ## ##        ##  ##    ## ##   ##  ##    ##
+    ########   #######  #### ######## ########      ######  ######## ####  ######  ##    ##  ######
 */
 
 PT.buildSlicks = function() {
 
     PT.log('buildSlicks()');
- 
+
 
 
 
@@ -60,71 +60,72 @@ PT.buildSlicks = function() {
 
     /*
 
-        ########   #######  ##      ##                                                                   
-        ##     ## ##     ## ##  ##  ##                                                                   
-        ##     ## ##     ## ##  ##  ##                                                                   
-        ########  ##     ## ##  ##  ##                                                                   
-        ##   ##   ##     ## ##  ##  ##                                                                   
-        ##    ##  ##     ## ##  ##  ##                                                                   
-        ##     ##  #######   ###  ###                                                                    
-                                                                                                                         
+        ########   #######  ##      ##
+        ##     ## ##     ## ##  ##  ##
+        ##     ## ##     ## ##  ##  ##
+        ########  ##     ## ##  ##  ##
+        ##   ##   ##     ## ##  ##  ##
+        ##    ##  ##     ## ##  ##  ##
+        ##     ##  #######   ###  ###
+
         <ul data-pt-slick-single data-pt-imgswap-list>
             <li><img src="http://lorempixel.com/400/200/abstract/1"></li>
             <li><img src="http://lorempixel.com/400/200/abstract/2"></li>
             <li><img src="http://lorempixel.com/400/200/abstract/3"></li>
         </ul>
 
-        <ul data-pt-slick-single > 
+        <ul data-pt-slick-single >
             <li><img src="http://lorempixel.com/400/200/abstract/4"></li>
             <li><img src="http://lorempixel.com/400/200/abstract/5"></li>
             <li><img src="http://lorempixel.com/400/200/abstract/6"></li>
         </ul>
 
-    */        
+    */
 
     var _defaultSlick_Row = {
-            dots: true,
-            arrows: false,
-            infinite: true,
-            // variableWidth: true,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            speed: 1000,
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            mobileFirst: true,
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1
-                    }
+        dots: true,
+        arrows: true,
+        infinite: true,
+        variableWidth: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        speed: 1000,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        mobileFirst: true,
+        draggable:true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 6,
+                    slidesToScroll: 3
                 }
-                ,{
-                    breakpoint: 992,
-                    settings: {
-                        slidesToShow: 4,
-                        slidesToScroll: 1
-                    }
+            }
+            ,{
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 9,
+                    slidesToScroll: 3
                 }
-                ,{
-                    breakpoint: 1200,
-                    settings: {
-                        slidesToShow: 5,
-                        slidesToScroll: 1
-                    }
+            }
+            ,{
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 12,
+                    slidesToScroll: 4
                 }
-                ,{
-                    breakpoint: 1500,
-                    settings: {
-                        slidesToShow: 6,
-                        slidesToScroll: 1
-                    }
+            }
+            ,{
+                breakpoint: 1500,
+                settings: {
+                    slidesToShow: 12,
+                    slidesToScroll: 4
                 }
-            ]
-        }
- 
+            }
+        ]
+    }
+
 
 
 
@@ -153,13 +154,13 @@ PT.buildSlicks = function() {
 
 
     /*
-         ######  #### ##    ##  ######   ##       ######## 
-        ##    ##  ##  ###   ## ##    ##  ##       ##       
-        ##        ##  ####  ## ##        ##       ##       
-         ######   ##  ## ## ## ##   #### ##       ######   
-              ##  ##  ##  #### ##    ##  ##       ##       
-        ##    ##  ##  ##   ### ##    ##  ##       ##       
-         ######  #### ##    ##  ######   ######## ######## 
+         ######  #### ##    ##  ######   ##       ########
+        ##    ##  ##  ###   ## ##    ##  ##       ##
+        ##        ##  ####  ## ##        ##       ##
+         ######   ##  ## ## ## ##   #### ##       ######
+              ##  ##  ##  #### ##    ##  ##       ##
+        ##    ##  ##  ##   ### ##    ##  ##       ##
+         ######  #### ##    ##  ######   ######## ########
     */
 
     var _defaultSlick_Single = {
@@ -176,7 +177,7 @@ PT.buildSlicks = function() {
 
 
     $('[data-pt-slick-single]').each(function(i, val){
-        
+
         var _newData = $(this).data('pt-slick-single') || {} ;
 
 
@@ -203,20 +204,20 @@ PT.buildSlicks = function() {
 
 
 
- 
+
 
 
 
 
 
     /*
-        ########     ###    ##    ## ########   #######  ##     ## 
-        ##     ##   ## ##   ###   ## ##     ## ##     ## ###   ### 
-        ##     ##  ##   ##  ####  ## ##     ## ##     ## #### #### 
-        ########  ##     ## ## ## ## ##     ## ##     ## ## ### ## 
-        ##   ##   ######### ##  #### ##     ## ##     ## ##     ## 
-        ##    ##  ##     ## ##   ### ##     ## ##     ## ##     ## 
-        ##     ## ##     ## ##    ## ########   #######  ##     ##  
+        ########     ###    ##    ## ########   #######  ##     ##
+        ##     ##   ## ##   ###   ## ##     ## ##     ## ###   ###
+        ##     ##  ##   ##  ####  ## ##     ## ##     ## #### ####
+        ########  ##     ## ## ## ## ##     ## ##     ## ## ### ##
+        ##   ##   ######### ##  #### ##     ## ##     ## ##     ##
+        ##    ##  ##     ## ##   ### ##     ## ##     ## ##     ##
+        ##     ## ##     ## ##    ## ########   #######  ##     ##
     */
 
     var _defaultSlick_Random = {
@@ -235,18 +236,18 @@ PT.buildSlicks = function() {
             // speed: 1000,
             // slidesToScroll: 1,
             slidesToShow: 1
-        }        
+        }
 
     $('[data-pt-slick-random]').each(function(i, val){
         console.log('random ');
-        
+
         var _newData = $(this).data('pt-slick-single') || {} ;
         var _copiedData = jQuery.extend({}, _defaultSlick_Random)
 
-        // var _rn_ = Math.floor(Math.random() * 6) + 1  
-        // var _rn_ = Math.floor( Math.random() * $(this).children("li").length - 1);  
-        var _rn_ = Math.floor( Math.random() * $(this).children().length - 1);  
-        
+        // var _rn_ = Math.floor(Math.random() * 6) + 1
+        // var _rn_ = Math.floor( Math.random() * $(this).children("li").length - 1);
+        var _rn_ = Math.floor( Math.random() * $(this).children().length - 1);
+
         var _random = { "initialSlide": _rn_ }
 
         $.extend( _copiedData, _newData, _random );
@@ -279,34 +280,3 @@ PT.buildSlicks = function() {
 
 };
 // PT.buildSlicks();
-
-
- 
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

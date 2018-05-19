@@ -73,7 +73,30 @@ var SITE = {
             e.preventDefault();
             var _targetId = $(this).data('pt-scroll-to');
             var _scrollTo = $(_targetId).offset().top;
-            console.log(_scrollTo);
+
+
+
+            var ScrollToOffsetID = $(this).data('pt-scroll-to-offset');
+            var ScrollToOffsetNumber = $(ScrollToOffsetID).outerHeight(true);
+
+            console.log(_scrollTo, ScrollToOffsetNumber);
+
+
+            // var offSet = $(this.hash).offset();
+            // var smsTo = $(this.hash).data('pt-spy-me');
+
+            // if (offSet !== undefined){
+            //     if( ScrollToOffsetNumber === null ){
+            //         // console.log('null');
+            //         TweenMax.to(window, 0.5, { scrollTo:{ y:smsTo }, ease:Power4.easeInOut } );
+            //     }else{
+            //         // console.log('not null');
+            //         TweenMax.to(window, 0.5, { scrollTo:{ y:smsTo-ScrollToOffsetNumber }, ease:Power4.easeInOut } );
+            //     }
+            //
+            // }
+
+
             TweenMax.to(window, 0.5, { scrollTo:{ y:_scrollTo }, ease:Power4.easeInOut } );
         });
 

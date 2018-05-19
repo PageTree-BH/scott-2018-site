@@ -22,8 +22,8 @@
 
 
 
- 
- 
+
+
 // BREAKPOINT SIZER - USES SAME BREAKPOINTS AS DEFAULT BOOTSTRAP:
 $xs: ( min:  300px );
 $sm: ( min:  768px );
@@ -41,11 +41,11 @@ $xl-only: ( min: map-get($xl, min) );
 
 @mixin ptBreakpoint($map) {
   	$query: "";
-  
-  	@if map-has-key($map, min) { 
+
+  	@if map-has-key($map, min) {
   		$query: append($query, "(min-width: #{map-get($map, min)})")
   	}
-  
+
 	@if map-has-key($map, min) and map-has-key($map, max) {
 		$query: append($query, "and")
 	}
@@ -53,7 +53,7 @@ $xl-only: ( min: map-get($xl, min) );
 	@if map-has-key($map, max) {
 		$query: append($query, "(max-width: #{map-get($map, max)})")
 	}
-  
+
   	@media screen and #{$query} { @content; }
 
 }
@@ -100,10 +100,10 @@ $xl-only: ( min: map-get($xl, min) );
 	@if $num == 5 {
 	    align-items: center;
 		justify-content:  center;
-		text-align: center;
-		p{
-			text-align:left;
-		}
+		// text-align: center;
+		// p{
+			// text-align:left;
+		// }
 	}
 	@if $num == 6 {
 	    align-items: flex-end;
@@ -138,8 +138,8 @@ $xl-only: ( min: map-get($xl, min) );
 
 
 @mixin ptZone($n){
-	position:relative;    
-	width:100%;     
+	position:relative;
+	width:100%;
 	min-height:$n+vh;
 	@include ptViewport(min-height, $n);
 	// @include viewport-unit(height, $n+vh);
@@ -165,7 +165,7 @@ $xl-only: ( min: map-get($xl, min) );
     }
     h3, h4, h5{
         color:$h3;
-    } 
+    }
     p{
         color:$p;
     }
@@ -185,11 +185,11 @@ $xl-only: ( min: map-get($xl, min) );
 @mixin ptPadding($p:1em, $psm:2em, $pmd:3em, $plg:$pmd){
 
   padding:$p;
-  
+
   @include ptBreakpoint($sm){
     padding:$psm;
   }
-  
+
   @include ptBreakpoint($md){
     padding:$pmd;
   }
@@ -198,7 +198,7 @@ $xl-only: ( min: map-get($xl, min) );
 	@include ptBreakpoint($lg){
 		padding:$plg;
 	}
-  }  
+  }
 
 }
 
@@ -226,7 +226,7 @@ $xl-only: ( min: map-get($xl, min) );
 
 
 $zindex: (
-  modal     : 9000, 
+  modal     : 9000,
   overlay   : 8000,
   dropdown  : 7000,
   header    : 6000,
@@ -270,7 +270,7 @@ $zindex: (
 
 /**
  * https://gist.github.com/BenMorel/e9e34c08360ebbbd0634
- * 
+ *
  * Fix for vw, vh, vmin, vmax on iOS 7.
  * http://caniuse.com/#feat=viewport-units
  *
@@ -334,36 +334,3 @@ $zindex: (
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

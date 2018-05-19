@@ -4,7 +4,7 @@
 @import "slick/slick-theme";
 @import "slick/slick";
 
-   
+
 
 
 $slick-arrow-color:white;
@@ -20,7 +20,7 @@ $slick-arrow-size:30px; // must be in pixels?
 
 @mixin data-pt-slick(){
 
-  position:relative;  
+  position:relative;
   padding: 0;
 
   .slick-slide img{
@@ -30,7 +30,7 @@ $slick-arrow-size:30px; // must be in pixels?
   }
 
   &.slick-slider{
-    margin: 0 0 0 0;  
+    margin: 0 0 0 0;
   }
 
   & .slick-arrow{
@@ -40,7 +40,7 @@ $slick-arrow-size:30px; // must be in pixels?
     height:100%;
 
     z-index:9;
-    
+
     @include ptPos(5);
 
     &:before{
@@ -49,7 +49,7 @@ $slick-arrow-size:30px; // must be in pixels?
     }
     &.slick-prev{
       left:0;
-    } 
+    }
     &.slick-next{
       right:0;
     }
@@ -61,9 +61,7 @@ $slick-arrow-size:30px; // must be in pixels?
       font-size:30px;
     }
   }
-
-
-
+  
 }
 
 
@@ -75,7 +73,7 @@ $slick-arrow-size:30px; // must be in pixels?
   width:100%;  height:100%;
 
   // height:100%;
-  
+
   .slick-list,
   .slick-track{
     height:100%;
@@ -106,7 +104,7 @@ $slick-arrow-size:30px; // must be in pixels?
 
 
 
- 
+
 
 
 
@@ -132,7 +130,7 @@ $slick-arrow-size:30px; // must be in pixels?
       @include ptPos(5);
       // border:1px solid red;
 
-  }  
+  }
 
   &[data-pt-imgswap-list]{
     @include data-pt-imgswap-list();
@@ -142,44 +140,3 @@ $slick-arrow-size:30px; // must be in pixels?
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
