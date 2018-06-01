@@ -1,12 +1,37 @@
 
 
+
+
+
+
+
+
+
+$scott-gold: #ebaf45;
+
+$scott-lightgray: #cbcccb;
+$scott-midgray: #8a8b8a;
+$scott-darkgray: #50504d;
+
+$scott-brown: #875a3a;
+$scott-white: #ffffff;
+$scott-black: #000000;
+
+$scott-maxwidth: 1600px;
+
+
+
+
+
+
+
 // COLORS:
 
 
 
-$pt-color-primary	:	cadetblue ; // forestgreen	; 
-$pt-color-secondary	:	tan	; 
-$pt-color-highlight	: 	orangered 	; 
+$pt-color-primary	:	cadetblue ; // forestgreen	;
+$pt-color-secondary	:	tan	;
+$pt-color-highlight	: 	orangered 	;
 
 
 
@@ -33,9 +58,9 @@ $pt-color-black		: #000		;
 
 
 
-// $pt-bg-light 	:	$pt-color-gray-light 	; 			
-// $pt-bg-mid 		:	$pt-color-gray-mid 		; 	
-// $pt-bg-dark 	    :	$pt-color-gray-dark		; 	
+// $pt-bg-light 	:	$pt-color-gray-light 	;
+// $pt-bg-mid 		:	$pt-color-gray-mid 		;
+// $pt-bg-dark 	    :	$pt-color-gray-dark		;
 
 
 
@@ -63,7 +88,7 @@ $img-url: "./img/";
 $fonts-url: "./assets/fonts/";
 // $img-url: "/app/webroot/userfiles/284/File/assets/fonts/";
 
- 
+
 
 
 
@@ -81,13 +106,6 @@ $pt-max: ( min: $pt-maxwidth );
 
 
 
- 
-
-// -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-
-
-
-
 
 
 // -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
@@ -97,23 +115,4 @@ $pt-max: ( min: $pt-maxwidth );
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-

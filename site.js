@@ -190,3 +190,82 @@ var SITE = {
 
 
 };
+
+
+
+
+
+
+
+
+// $(document).ready(function($) {
+//   $('[data-accordion]').find('[data-accordion-button]').click(function(){
+//
+//     $(this).toggleClass('active');
+//     //Expand or collapse this panel
+//     $(this).next().slideToggle('fast');
+//
+//     //Hide the other panels
+//     $("[data-accordion-content]").not($(this).next()).slideUp("slow");
+//
+//   });
+//
+//   $("[data-accordion-content]").slideUp(0);
+//
+// });
+
+
+
+// $('[data-accordion]').find('[data-accordion-button]').each(function(i, val){
+$('[data-accordion]').each(function(ii, valval){
+
+    var thisAccordion = $(this);
+    // $(this).find('[data-accordion-content]').
+    $(this).find('[data-accordion-button]').each(function(i, val){
+
+        var aaBtn = $(this);
+        var aaContentId = aaBtn.data('accordion-button').toString();
+        var aaContent = $(aaContentId);
+        // console.log(aaBtn, aaContentId);
+
+        if (aaContent.hasClass('active')){
+            aaContent.slideDown();
+            // aBtn.removeClass('active');
+        } else {
+            aaContent.slideUp();
+            // aBtn.addClass('active');
+        }
+
+
+        $(this).click(function(e){
+            var aBtn = $(this);
+            var aContentId = aBtn.data('accordion-button').toString();
+            var aContent = $(aContentId);
+            console.log(aBtn, aContentId);
+
+
+            if (aContent.hasClass('active')){
+                aContent.removeClass('active').slideUp();
+                aBtn.removeClass('active');
+            } else {
+                aContent.addClass('active').slideDown();
+                aBtn.addClass('active');
+            }
+
+        });
+
+        // $(this).click(function(e){
+        //     console.log('panel', panel);
+        //     // if (panel.hasClass('active')){
+        //     if (panel.style.maxHeight){
+        //         panel.removeClass('active');
+        //         panel.style.maxHeight = null;
+        //     } else {
+        //         panel.addClass('active');
+        //         panel.style.maxHeight = panel.scrollHeight + "px";
+        //     }
+        // });
+
+    });
+
+});

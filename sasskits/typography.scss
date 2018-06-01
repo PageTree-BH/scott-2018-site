@@ -20,10 +20,45 @@
 
 
 
-$font-header: 'Oswald', Helvetica, Arial, sans-serif;
+@font-face {
+    font-family: 'din_condensedbold';
+    src: url('./fonts/din_condensed_bold-webfont.woff2') format('woff2'),
+         url('./fonts/din_condensed_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font-header: 'din_condensedbold', Helvetica, Arial, sans-serif;
 $font-body: 'Droid Sans', Helvetica, Arial, sans-serif;
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+@mixin fontHeader(){
+	font-family:$font-header;
+	text-transform:uppercase;
+	// letter-spacing:0.1em;
+	// font-weight:300;
+	a{
+		text-decoration: none;
+		color:$scott-brown;
+		// color:inherit;
+	}
+	>span{
+		text-transform:capitalize;
+		font-style:italic;
+		display:block;
+		font-size:0.7em;
+		// color:$apg-text-dark-2;
+		margin-bottom:1em;
+		margin-top:0.7em;
+	}
+}
+
+@mixin fontBody(){
+	font-family: $font-body;
+	color:$scott-midgray;
+}
 
 :root{
 	font-size:16px;
@@ -37,31 +72,14 @@ body{
 
 
 
-h1,h2,h3,h4,h5,h6{
-	font-family: $font-header;
-	text-transform:uppercase;
-	// letter-spacing:0.1em;
-	// font-weight:300;
-
-	>span{
-		text-transform:capitalize;
-		font-style:italic;
-		display:block;
-		font-size:0.7em;
-		// color:$apg-text-dark-2;
-		margin-bottom:1em;
-		margin-top:0.7em;
-	}
-
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+	@include fontHeader();
 }
-
-.headline{
-	
-}
-p{
-	// font-size:1rem;
-}
-
 
 
 // .hr1{

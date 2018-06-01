@@ -1,17 +1,5 @@
 
 
-$scott-gold: #ebaf45;
-
-$scott-lightgray: #cbcccb;
-$scott-midgray: #8a8b8a;
-$scott-darkgray: #50504d;
-
-$scott-brown: #875a3a;
-$scott-white: #ffffff;
-$scott-black: #000000;
-
-$scott-maxwidth: 1600px;
-
 
 body{
   margin:0;
@@ -172,7 +160,6 @@ body{
 
 
 
-
 .img-responsive{
     width:100%;
     height:auto;
@@ -286,6 +273,9 @@ body{
     // overflow:visible;
     position: relative;
     z-index: 9999999;
+
+
+
     ul{
         list-style: none;
         margin:0; padding:0;
@@ -301,7 +291,7 @@ body{
     .rodnav_btn{
         position: relative;
         display:block;
-overflow:visible;
+        overflow:visible;
         text-align: center;
         position: relative;
         text-decoration: none;
@@ -309,7 +299,7 @@ overflow:visible;
         color:$scott-darkgray;
 
         // height:40px;
-        height:70px;
+        height:75px;
 // margin-bottom:-25px;
 
         &.active,
@@ -324,14 +314,19 @@ overflow:visible;
 
     }
     .rodnav_name{
-        display:block;
-        color:$scott-brown;
-        font-weight: bold;
-        font-size:2rem;
+        @include fontHeader();
         position: relative;
+        display:block;
+        font-size:1.2rem;
+        color:$scott-brown;
         z-index: 2;
+        top:0.5em;
     }
+
     .rodnav_info{
+        @include fontBody();
+        font-size:1rem;
+
         border-left:1px solid white;
         border-right:1px solid white;
         background-color: $scott-lightgray;
@@ -341,84 +336,19 @@ overflow:visible;
         // opacity:0;
         transition:0.2s;
 
+
         color:rgba($scott-darkgray,0);
         position:absolute;
         left:0; right:0;
         // bottom:0px;
-        top:-25px;
+        top:-35px;
         width:100%;
-        height:65px;
+        height:75px;
         padding:5px;
 
-    }
-
-}
-
-
-
-
-
-
-
-
-footer.site-footer{
-
-    background-color:$scott-lightgray;
-
-    p{
-        font-family:Arial;
-        font-size:12px;
-    }
-
-    nav{
-        width:100%;
-
-        ul{
-            margin:0.5em 1em;
-            padding:0;
-        }
-
-        li{
-            margin:0;
-            padding:0;
-            list-style: none;
-
-        }
-
-
-        >ul{
-            width:100%;
-            padding:1em;
-            margin:0;
-            display:flex;
-            flex-direction:row;
-            flex-wrap:wrap;
-            justify-content: space-between;
-
-            >li{
-                text-transform: uppercase;
-                font-family: Impact, "sans serif";
-                flex:1 1 auto;
-                max-width:200px;
-                ul{
-                    text-transform: none;
-                    font-family:Arial;
-                }
-
-            }
-
-        }
-
-
-        @include ptBreakpoint($sm){
-
-        }
-
 
 
 
     }
-
-
 
 }

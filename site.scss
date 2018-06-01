@@ -16,12 +16,12 @@ html {
 
 
 // BULK OF THE STYLES ARE HERE:
+
+@import "sasskits/typography";
+
 @import "sasskits/_site-base";
 
 
-
-
-@import "sasskits/typography";
 
 @import "sasskits/ab-sections";
 @import "sasskits/pt-ab-section";
@@ -32,8 +32,6 @@ html {
 
 @import "sasskits/pt-slicks.scss";
 @import "sasskits/pt-navspy.scss";
-
-
 
 
 
@@ -52,3 +50,51 @@ html {
 
 
 @import "scott-navigation.scss";
+
+
+@import "sasskits/scott-footer.scss";
+
+
+// .w-5 {  width:  5%; }
+// .w-15 {  width:  15%; }
+// .w-25 {  width:  25%; }
+// .w-35 {  width:  35%; }
+// .w-45 {  width:  45%; }
+// .w-55 {  width:  55%; }
+// .w-65 {  width:  65%; }
+// .w-75 {  width:  75%; }
+// .w-85 {  width:  85%; }
+// .w-95 {  width:  95%; }
+
+
+[data-accordion-panel]{
+
+    // max-height:0;
+    overflow:hidden;
+    transition:0.4s;
+
+    &.active{
+
+    }
+}
+[data-accordion-button]{
+    cursor: pointer;
+    display:block;
+    &.active{
+    }
+}
+.rod-accordion-btn{
+    &.active{
+        background-color:$scott-gold;
+        color:white;
+    }
+}
+// .accordion-button {
+//     cursor: pointer;
+// }
+// .accordion-content {
+//     display: none;
+// }
+// .accordion-content.default {
+//     display: block;
+// }
