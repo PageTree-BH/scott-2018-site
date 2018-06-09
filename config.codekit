@@ -24,6 +24,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_deploy\/assets\/homeplate\/g-series-slide-image-lg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 478367,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/g-series-slide-image-lg.jpg",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/g-series-slide-image-lg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_deploy\/assets\/homeplate\/g-series-slide-image-md.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115158,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/g-series-slide-image-md.jpg",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/g-series-slide-image-md.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_deploy\/assets\/homeplate\/g-series-slide-image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -31,6 +53,28 @@
 		"initialSize": 6.82062e+06,
 		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/g-series-slide-image.jpg",
 		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/g-series-slide-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_deploy\/assets\/homeplate\/meridian-slide-image-lg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 288715,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/meridian-slide-image-lg.jpg",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/meridian-slide-image-lg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_deploy\/assets\/homeplate\/meridian-slide-image-md.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68271,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/meridian-slide-image-md.jpg",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/meridian-slide-image-md.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -46,6 +90,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_deploy\/assets\/homeplate\/radian-slide-image-lg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 502943,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/radian-slide-image-lg.jpg",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/radian-slide-image-lg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_deploy\/assets\/homeplate\/radian-slide-image-md.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129583,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/radian-slide-image-md.jpg",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/radian-slide-image-md.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_deploy\/assets\/homeplate\/radian-slide-image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -53,6 +119,28 @@
 		"initialSize": 5.88373e+06,
 		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/radian-slide-image.jpg",
 		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/radian-slide-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_deploy\/assets\/homeplate\/scott-brand-slide-image-lg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 135588,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/scott-brand-slide-image-lg.jpg",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/scott-brand-slide-image-lg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_deploy\/assets\/homeplate\/scott-brand-slide-image-md.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36153,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/scott-brand-slide-image-md.jpg",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/scott-brand-slide-image-md.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
