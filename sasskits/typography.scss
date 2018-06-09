@@ -81,6 +81,16 @@ h6, .h6 {
 	@include fontHeader();
 }
 
+.txt-headline{
+	font-family:$font-header;
+	text-transform:uppercase;
+}
+.txt-body{
+	font-family: $font-body;
+}
+
+
+
 
 // .hr1{
 // 	height:15px;

@@ -24,6 +24,104 @@ $(function() {
     // console.log('site specific js file');
 
     SITE.init();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    var holder = $('#g-series-letter').parent();
+    // var mySVG = $('#hippo2');
+    TweenMax.set("#g-series-letter", {transformOrigin:"50% 50%" });
+
+    TweenMax.from($("#g-series-letter"), 5, {
+        // transformOrigin:"50% 50%",
+        // x: (window.innerWidth/2)
+        // ,y: (window.innerHeight/2)
+        // x: positionElementToCenter('#hippo2').x,
+        // y: positionElementToCenter('#hippo2').y,
+        // x: '50%',
+        // y: '50%'
+        delay:1,
+        autoAlpha:0,
+        scale:2
+    });
+
+console.log(window.innerWidth/2);
+
+    $(window).on('mousemove', function(e){
+        // TweenMax.to($("#hippo2"), 0, {x: e.pageX, y:e.pageY });
+        // TweenMax.set($("#g-series-letter"), {
+        //   x: e.pageX-holder.width()/2
+        //   ,y:e.pageY-holder.height()/2
+        // });
+    });
+
+
+        // TweenMax.to($("#hippo"), 3, {
+        //   // x: e.pageX-mySVG.width()/3
+        //   // ,y:e.pageY-mySVG.height()/3
+        //   x: '500'
+        //   ,y:'500'
+        //   ,autoAlpha:0
+        //   ,opacity:0
+        //   ,ease:Power4.easeOut
+        // });
+
+
+console.log('!!!!!!!!!!!');
+
+        // TweenMax.set("#hippo2",{
+        //     autoAlpha:0,
+        //     scale: 3,
+        // });
+        // TweenMax.to("#hippo2", 5, {
+        //     delay:1,
+        //   scale: 1.1,
+        //   ease: Power3.easeOut,
+        //   autoAlpha:1,
+        // });
+        //
+
+
+
+
+        // function positionElementToCenter(element) {
+        //
+        //   var bbox = element.getBBox(),
+        //       svg = document.getElementById('linc'),
+        //       viewBox = svg.getAttribute('viewBox');
+        //
+        //   viewBox = viewBox.split(' ');
+        //
+        //   var cx = parseFloat(viewBox[0]) + (parseFloat(viewBox[2]) / 2),
+        //       cy = parseFloat(viewBox[1]) + (parseFloat(viewBox[3]) / 2),
+        //       x = cx - bbox.x - ((bbox.width / 2) - 30), // 30 is offset
+        //       y = cy - bbox.y - ((bbox.height / 2) -20); // 20 is offset
+        //
+        //   return { x: x, y: y };
+        // }
+
+
+
+
+
+
+
+
+
+
 });
 
 
@@ -172,22 +270,7 @@ var SITE = {
             }
         });
 
-
-
-
-
-
-
     }
-
-
-
-
-
-
-
-
-
 
 };
 

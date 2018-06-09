@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'ptBreakpoint'.
-        on line 23 of /Users/brandon/Documents/PT-PROJECT-TEMPLATES/PT-Site-Template-v12/_pt-bundles/pt-homeplate.scss, in `ptBreakpoint'
-        from line 23 of /Users/brandon/Documents/PT-PROJECT-TEMPLATES/PT-Site-Template-v12/_pt-bundles/pt-homeplate.scss
+        on line 36 of /Users/PT/Documents/PageTree/scott-2018/scott-2018-site/sasskits/pt-homeplate.scss, in `ptBreakpoint'
+        from line 36 of /Users/PT/Documents/PageTree/scott-2018/scott-2018-site/sasskits/pt-homeplate.scss
 
-18:     background-attachment:fixed;
-19:     background-size:cover;
-20: 
-21:     // @include ptPos(5);
-22: 
-23:     @include ptBreakpoint($sm){
-24:         padding:10em 0 15em 0;
-25: 
-26:         .cssvhunit &{
-27:             min-height:90vh;
-28:             padding:5em 1em;
+31:     align-items:center;
+32:     justify-content:center;
+33:     // justify-content:space-around;
+34:     // justify-content:space-between;
+35: 
+36:     @include ptBreakpoint($sm){
+37:         // padding:10em 0 15em 0;
+38: 
+39:         .cssvhunit &{
+40:             height:95vh;
+41:             // padding:5em 1em;
 
 Backtrace:
-/Users/brandon/Documents/PT-PROJECT-TEMPLATES/PT-Site-Template-v12/_pt-bundles/pt-homeplate.scss:23:in `ptBreakpoint'
-/Users/brandon/Documents/PT-PROJECT-TEMPLATES/PT-Site-Template-v12/_pt-bundles/pt-homeplate.scss:23
+/Users/PT/Documents/PageTree/scott-2018/scott-2018-site/sasskits/pt-homeplate.scss:36:in `ptBreakpoint'
+/Users/PT/Documents/PageTree/scott-2018/scott-2018-site/sasskits/pt-homeplate.scss:36
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
@@ -63,4 +63,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'ptBreakpoint'.\A         on line 23 of /Users/brandon/Documents/PT-PROJECT-TEMPLATES/PT-Site-Template-v12/_pt-bundles/pt-homeplate.scss, in `ptBreakpoint'\A         from line 23 of /Users/brandon/Documents/PT-PROJECT-TEMPLATES/PT-Site-Template-v12/_pt-bundles/pt-homeplate.scss\A \A 18:     background-attachment:fixed;\A 19:     background-size:cover;\A 20: \A 21:     // @include ptPos(5);\A 22: \A 23:     @include ptBreakpoint($sm){\A 24:         padding:10em 0 15em 0;\A 25: \A 26:         .cssvhunit &{\A 27:             min-height:90vh;\A 28:             padding:5em 1em;"; }
+  content: "Error: Undefined mixin 'ptBreakpoint'.\A         on line 36 of /Users/PT/Documents/PageTree/scott-2018/scott-2018-site/sasskits/pt-homeplate.scss, in `ptBreakpoint'\A         from line 36 of /Users/PT/Documents/PageTree/scott-2018/scott-2018-site/sasskits/pt-homeplate.scss\A \A 31:     align-items:center;\A 32:     justify-content:center;\A 33:     // justify-content:space-around;\A 34:     // justify-content:space-between;\A 35: \A 36:     @include ptBreakpoint($sm){\A 37:         // padding:10em 0 15em 0;\A 38: \A 39:         .cssvhunit &{\A 40:             height:95vh;\A 41:             // padding:5em 1em;"; }

@@ -2,15 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19127",
 "files": {
-	"\/_deploy\/ab-sections.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_deploy\/ab-sections.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_deploy\/assets\/homeplate\/bg-g.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -29,6 +20,50 @@
 		"initialSize": 443172,
 		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/bg-m.jpg",
 		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/bg-m.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_deploy\/assets\/homeplate\/g-series-slide-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6.82062e+06,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/g-series-slide-image.jpg",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/g-series-slide-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_deploy\/assets\/homeplate\/meridian-slide-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.30425e+06,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/meridian-slide-image.jpg",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/meridian-slide-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_deploy\/assets\/homeplate\/radian-slide-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.88373e+06,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/radian-slide-image.jpg",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/radian-slide-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_deploy\/assets\/homeplate\/scott-brand-slide-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.31463e+06,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/scott-brand-slide-image.jpg",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/scott-brand-slide-image.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -95,6 +130,28 @@
 		"initialSize": 47684,
 		"inputAbbreviatedPath": "\/_deploy\/assets\/img\/sample\/lorempixel-6.jpg",
 		"outputAbbreviatedPath": "\/_deploy\/assets\/img\/sample\/lorempixel-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_deploy\/assets\/img\/sample\/mountains-1-bw.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 929307,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/img\/sample\/mountains-1-bw.jpg",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/img\/sample\/mountains-1-bw.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_deploy\/assets\/img\/sample\/mountains-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 929307,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/img\/sample\/mountains-1.jpg",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/img\/sample\/mountains-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -214,11 +271,29 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_deploy\/homeplate-slide-1.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_deploy\/homeplate-slide-1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_deploy\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_deploy\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_deploy\/scott-homeplate.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_deploy\/scott-homeplate.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -469,6 +544,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/scott-menu.css",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/homeplate-slide-1.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/homeplate-slide-1.kit",
+		"outputAbbreviatedPath": "\/_deploy\/homeplate-slide-1.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -11214,6 +11298,15 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"useLibsass": 0
+		},
+	"\/scott-homeplate.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scott-homeplate.kit",
+		"outputAbbreviatedPath": "\/_deploy\/scott-homeplate.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/scott-navigation-interior.kit": {
 		"fileType": 2048,
