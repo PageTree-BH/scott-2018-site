@@ -9,7 +9,7 @@
 
 $slick-arrow-color:white;
 $slick-arrow-bg:rgba(0,0,0,0.05);
-$slick-arrow-size:30px; // must be in pixels?
+$slick-arrow-size:100px; // must be in pixels?
 
 
 
@@ -48,10 +48,10 @@ $slick-arrow-size:30px; // must be in pixels?
       color:$slick-arrow-color;
     }
     &.slick-prev{
-      left:0;
+      left:1em;
     }
     &.slick-next{
-      right:0;
+      right:1em;
     }
   }
 
@@ -61,7 +61,7 @@ $slick-arrow-size:30px; // must be in pixels?
       font-size:30px;
     }
   }
-  
+
 }
 
 

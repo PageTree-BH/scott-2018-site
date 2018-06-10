@@ -24,6 +24,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_deploy\/assets\/homeplate\/g-big-letter-art-wShadow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/g-big-letter-art-wShadow.png",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/g-big-letter-art-wShadow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_deploy\/assets\/homeplate\/g-big-letter-art.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64231,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/g-big-letter-art.png",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/g-big-letter-art.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_deploy\/assets\/homeplate\/g-series-slide-image-lg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -53,6 +75,17 @@
 		"initialSize": 6.82062e+06,
 		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/g-series-slide-image.jpg",
 		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/g-series-slide-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_deploy\/assets\/homeplate\/meridian-big-letter-art.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38298,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/meridian-big-letter-art.png",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/meridian-big-letter-art.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -90,6 +123,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_deploy\/assets\/homeplate\/radian-big-letter-art.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43456,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/radian-big-letter-art.png",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/radian-big-letter-art.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_deploy\/assets\/homeplate\/radian-slide-image-lg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -119,6 +163,17 @@
 		"initialSize": 5.88373e+06,
 		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/radian-slide-image.jpg",
 		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/radian-slide-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_deploy\/assets\/homeplate\/scott-brand-big-letter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68985,
+		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/scott-brand-big-letter.png",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/scott-brand-big-letter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -359,29 +414,11 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_deploy\/homeplate-slide-1.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_deploy\/homeplate-slide-1.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_deploy\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_deploy\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_deploy\/scott-homeplate.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_deploy\/scott-homeplate.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
