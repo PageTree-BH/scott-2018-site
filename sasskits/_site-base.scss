@@ -266,23 +266,84 @@ body{
 // }
 
 
+button.scrollX-btn{
+        width:5%;
+        height:53%;
+border:0;
+outline:0;
+        background:rgba(black, 0.5);
+        color:white;
+        font-size:1rem;
+        z-index: 5;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &[data-left]{
+            position:absolute; top:0; left:0;
+        }
+        &[data-right]{
+            position:absolute; top:0; right:0;
+        }
+}
 
 .rodnav{
     // overflow-y:hidden;
     // overflow-x:scroll;
     // overflow:visible;
     position: relative;
-    z-index: 9999999;
 
+.slick-dots{
+    display: none !important;
+}
+.slick-arrow{
+    height:53% !important;
+    top:0px;
+    transform:none;
+    background-color: black !important;
+    color:white !important;
+    &:before, &:after{
+        font-size:40px !important;
+    }
+}
+    z-index: 99;
 
+    // &:before, &:after{
+    //     width:5%;
+    //     height:53%;
+    //
+    //     background:rgba(black, 0.5);
+    //     color:white;
+    //     font-size:1rem;
+    //     z-index: 5;
+    //     text-align: center;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
+    // &:before{ content:"<"; position:absolute; top:0; left:0; }
+    // &:after{ content:">"; position:absolute; top:0; right:0;  }
+
+    .scrollX{
+        width:90%;
+        padding:0;
+        margin:auto;
+        position: relative;
+    }
 
     ul{
+        // position: relative;
         list-style: none;
-        margin:0; padding:0;
-        display:flex;
+        display: flex;
         flex-direction: row;
         // flex-wrap:nowrap;
         width:100%;
+        padding:0;
+        margin:0;
+        // left:50%;
+        // z-index: 1;
+
     }
     li{
         flex:1 0 150px;
@@ -299,6 +360,7 @@ body{
         color:$scott-darkgray;
 
         // height:40px;
+        width:150px;
         height:75px;
 // margin-bottom:-25px;
 

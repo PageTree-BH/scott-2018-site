@@ -111,7 +111,7 @@ var SITE = {
 
 
 
-
+        SITE.buildRodNav();
 
 
 
@@ -179,12 +179,25 @@ var SITE = {
                 autoAlpha:0,
                 scale:2
             });
+            TweenMax.set($(_slide_).find('.shp-titles'), {
+                autoAlpha:0,
+                // scale:2
+            });
         }
+
         function animateSlide(_SLICK_, _slide_){
             TweenMax.to($(_slide_).find('.series-letter'), 3, {
                 autoAlpha:1,
-                delay:0.5,
-                scale:1,
+                delay:0.4,
+                scale:1
+                // onComplete:function(e){
+                    // _SLICK_.slickNext();
+                // }
+            });
+            TweenMax.to($(_slide_).find('.shp-titles'), 3, {
+                autoAlpha:1,
+                delay:0.8,
+                // scale:1,
                 onComplete:function(e){
                     _SLICK_.slickNext();
                 }
@@ -275,6 +288,21 @@ var SITE = {
 
 
     }
+
+
+    ,buildRodNav: function() {
+        console.log('buildSitebuildRodNavNavigation()');
+        // scrollX-btn
+
+    }
+
+
+
+
+
+
+
+
 
 };
 

@@ -8,7 +8,7 @@
 #scott_site_navigation{
     ul.menu-lg{
         display:none;
-        @include ptBreakpoint($md){
+        @include ptBreakpoint($sm){
             display:flex;
         }
     }
@@ -16,7 +16,7 @@
     ul.menu-sm{
         display:flex;
 
-        @include ptBreakpoint($md){
+        @include ptBreakpoint($sm){
             display:none;
         }
     }
