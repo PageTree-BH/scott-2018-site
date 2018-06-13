@@ -185,8 +185,8 @@ var SITE = {
                 ease:Power3.easeOut,
                 scale:2
             });
-            // TweenMax.set($(_slide_).find('.shp-titles'), { alpha:0 });
-            TweenMax.set($(_slide_).find('.shp-titles h1'), { alpha:0, scale:1.2 });
+            TweenMax.set($(_slide_).find('.shp-titles'), { alpha:0, scale:1.2 });
+            TweenMax.set($(_slide_).find('.shp-titles h1'), { alpha:0 });
             TweenMax.set($(_slide_).find('.shp-titles img'), { alpha:0 });
             TweenMax.set($(_slide_).find('.shp-titles a'), { alpha:0 });
         }
@@ -198,20 +198,23 @@ var SITE = {
                 delay:0.3,
                 scale:1
             });
-            // TweenMax.to($(_slide_).find('.shp-titles '), 0, {
-            //     alpha:1,
-            //     // ease:Power3.easeOut,
-            //     // delay:0,
-            //     // scale:1,
-            //     onComplete:function(e){
-            //         // _SLICK_.slickNext();
-            //     }
-            // });
+
+
+
+            TweenMax.to($(_slide_).find('.shp-titles '), 3, {
+                alpha:1,
+                ease:Power3.easeOut,
+                delay:1,
+                scale:1
+                // onComplete:function(e){
+                    // _SLICK_.slickNext();
+                // }
+            });
             TweenMax.to($(_slide_).find('.shp-titles h1'), 3, {
                 alpha:1,
                 ease:Power3.easeOut,
                 delay:1,
-                scale:1,
+                // scale:1,
                 onComplete:function(e){
                     // _SLICK_.slickNext();
                 }
@@ -242,7 +245,7 @@ var SITE = {
 
         HP.on('init', function(event, slick, currentSlide, nextSlide){
             // function onInit(){
-            console.log('init init init init');
+            console.log('init init init initc3c33 333 3 3 33');
             setSlide(slick, slick.$slides[0]);
             animateSlide(slick, slick.$slides[0]);
         });
@@ -257,8 +260,8 @@ var SITE = {
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 autoplay: false,
-                nextArrow: '<i class="fa fa-angle-right"></i>',
-                prevArrow: '<i class="fa fa-angle-left"></i>'
+                nextArrow: '<button class="pt-slick-next"><i class="fa fa-angle-right"></i></button>',
+                prevArrow: '<button class="pt-slick-prev"><i class="fa fa-angle-left"></i></button>'
             });
 
         HP.on('beforeChange', function(event, slick, currentSlide, nextSlide){
@@ -275,7 +278,7 @@ var SITE = {
 
 
 
- 
+
 
 
 

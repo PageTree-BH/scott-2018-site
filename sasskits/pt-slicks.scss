@@ -15,6 +15,36 @@ $slick-arrow-size:50px; // must be in pixels?
 
 
 
+.pt-slick-prev{
+  outline:0;
+  z-index:9;
+  border:0;
+  background-color:$slick-arrow-bg;
+
+    font-size:$slick-arrow-size;
+    color:$slick-arrow-color;
+    position: absolute;
+    left:5px;
+    top:50%;
+    transform:translateY(-50%);
+    cursor: poin
+}
+
+.pt-slick-next{
+  outline:0;
+  z-index:9;
+  border:0;
+  background-color:$slick-arrow-bg;
+
+    font-size:$slick-arrow-size;
+    color:$slick-arrow-color;
+    position: absolute;
+    right:5px;
+    top:50%;
+    transform:translateY(-50%);
+    cursor: poin
+}
+
 
 @mixin data-pt-slick(){
 
@@ -44,7 +74,7 @@ $slick-arrow-size:50px; // must be in pixels?
         left:5px;
         top:50%;
         transform:translateY(-50%);
-        cursor: pointer;
+        cursor: poin
   }
 
   & .pt-slick-next{
@@ -59,7 +89,7 @@ $slick-arrow-size:50px; // must be in pixels?
         right:5px;
         top:50%;
         transform:translateY(-50%);
-        cursor: pointer;
+        cursor: poin
   }
 
 
