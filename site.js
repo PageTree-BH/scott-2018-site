@@ -160,6 +160,8 @@ var SITE = {
 
 
             TweenMax.to(window, 0.5, { scrollTo:{ y:_scrollTo }, ease:Power4.easeInOut } );
+
+
         });
 
 
@@ -174,35 +176,67 @@ var SITE = {
         var HP = $('[data-scott-homeplate]');
 
 
+
+        // var tlm = new TimelineMax();
+
         function setSlide(_SLICK_, _slide_){
             TweenMax.set($(_slide_).find('.series-letter'), {
-                autoAlpha:0,
+                alpha:0,
+                ease:Power3.easeOut,
                 scale:2
             });
-            TweenMax.set($(_slide_).find('.shp-titles'), {
-                autoAlpha:0,
-                // scale:2
-            });
+            // TweenMax.set($(_slide_).find('.shp-titles'), { alpha:0 });
+            TweenMax.set($(_slide_).find('.shp-titles h1'), { alpha:0, scale:1.2 });
+            TweenMax.set($(_slide_).find('.shp-titles img'), { alpha:0 });
+            TweenMax.set($(_slide_).find('.shp-titles a'), { alpha:0 });
         }
 
         function animateSlide(_SLICK_, _slide_){
             TweenMax.to($(_slide_).find('.series-letter'), 3, {
-                autoAlpha:1,
-                delay:0.4,
+                alpha:1,
+                ease:Power3.easeOut,
+                delay:0.3,
                 scale:1
-                // onComplete:function(e){
-                    // _SLICK_.slickNext();
-                // }
             });
-            TweenMax.to($(_slide_).find('.shp-titles'), 3, {
-                autoAlpha:1,
-                delay:0.8,
+            // TweenMax.to($(_slide_).find('.shp-titles '), 0, {
+            //     alpha:1,
+            //     // ease:Power3.easeOut,
+            //     // delay:0,
+            //     // scale:1,
+            //     onComplete:function(e){
+            //         // _SLICK_.slickNext();
+            //     }
+            // });
+            TweenMax.to($(_slide_).find('.shp-titles h1'), 3, {
+                alpha:1,
+                ease:Power3.easeOut,
+                delay:1,
+                scale:1,
+                onComplete:function(e){
+                    // _SLICK_.slickNext();
+                }
+            });
+            TweenMax.to($(_slide_).find('.shp-titles img'), 3.4, {
+                alpha:1,
+                ease:Power3.easeOut,
+                delay:1.4,
+            });
+            TweenMax.to($(_slide_).find('.shp-titles a'), 3.8, {
+                alpha:1,
+                ease:Power3.easeOut,
+                delay:1.8,
                 // scale:1,
                 onComplete:function(e){
                     _SLICK_.slickNext();
                 }
             });
         }
+
+
+
+
+
+
 
 
 
@@ -222,7 +256,9 @@ var SITE = {
                 speed: 2000,
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                autoplay: false
+                autoplay: false,
+                nextArrow: '<i class="fa fa-angle-right"></i>',
+                prevArrow: '<i class="fa fa-angle-left"></i>'
             });
 
         HP.on('beforeChange', function(event, slick, currentSlide, nextSlide){
@@ -239,7 +275,7 @@ var SITE = {
 
 
 
-
+ 
 
 
 
@@ -295,11 +331,6 @@ var SITE = {
         // scrollX-btn
 
     }
-
-
-
-
-
 
 
 

@@ -8,10 +8,8 @@
 
 
 $slick-arrow-color:white;
-$slick-arrow-bg:rgba(0,0,0,0.05);
-$slick-arrow-size:100px; // must be in pixels?
-
-
+$slick-arrow-bg:rgba(0,0,0,0.0);
+$slick-arrow-size:50px; // must be in pixels?
 
 
 
@@ -33,27 +31,59 @@ $slick-arrow-size:100px; // must be in pixels?
     margin: 0 0 0 0;
   }
 
-  & .slick-arrow{
-    background-color:$slick-arrow-bg;
-    color:transparent;
-    width:3%;
-    height:100%;
 
-    z-index:9;
+  & .pt-slick-prev{
+      outline:0;
+      z-index:9;
+      border:0;
+      background-color:$slick-arrow-bg;
 
-    @include ptPos(5);
-
-    &:before{
-      font-size:$slick-arrow-size;
-      color:$slick-arrow-color;
-    }
-    &.slick-prev{
-      left:1em;
-    }
-    &.slick-next{
-      right:1em;
-    }
+        font-size:$slick-arrow-size;
+        color:$slick-arrow-color;
+        position: absolute;
+        left:5px;
+        top:50%;
+        transform:translateY(-50%);
+        cursor: pointer;
   }
+
+  & .pt-slick-next{
+      outline:0;
+      z-index:9;
+      border:0;
+      background-color:$slick-arrow-bg;
+
+        font-size:$slick-arrow-size;
+        color:$slick-arrow-color;
+        position: absolute;
+        right:5px;
+        top:50%;
+        transform:translateY(-50%);
+        cursor: pointer;
+  }
+
+
+  // & .slick-arrow{
+  //   background-color:$slick-arrow-bg;
+  //   color:transparent;
+  //   width:3%;
+  //   height:100%;
+  //
+  //   z-index:9;
+  //
+  //   @include ptPos(5);
+  //
+  //   &:before{
+  //     font-size:$slick-arrow-size;
+  //     color:$slick-arrow-color;
+  //   }
+  //   &.slick-prev{
+  //     left:1em;
+  //   }
+  //   &.slick-next{
+  //     right:1em;
+  //   }
+  // }
 
   & .slick-dots {
     bottom: 0.5em;

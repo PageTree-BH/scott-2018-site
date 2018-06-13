@@ -1,8 +1,15 @@
 @charset "UTF-8";
 
 // Default Variables
+// @font-face {
+//     font-family: "FontAwesome";
+//     src: slick-font-url("assets/fonts/fontawesome-webfont.eot");
+//     src: slick-font-url("assets/fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), slick-font-url("assets/fonts/fontawesome-webfont.woff") format("woff"), slick-font-url("assets/fonts/fontawesome-webfont.ttf") format("truetype"), slick-font-url("assets/fonts/fontawesome-webfont.svg") format("svg");
+//     font-weight: normal;
+//     font-style: normal;
+// }
 
-$slick-font-path: "./fonts/" !default;
+$slick-font-path: "./assets/fonts/" !default;
 $slick-font-family: "slick" !default;
 // $slick-font-family: "FontAwesome" !default;
 $slick-loader-path: "./img/" !default;
@@ -16,7 +23,7 @@ $slick-dot-color-active: $slick-dot-color !default;
 $slick-prev-character: "\02039" !default;
 $slick-next-character: "\0203A" !default;
 // $slick-prev-character: "\f104" !default;
-// $slick-next-character: "\f105" !default;
+// $slick-next-character: "\f101" !default;
 
 
 $slick-dot-character: "•" !default;
@@ -80,6 +87,15 @@ $slick-opacity-not-active: 0.25 !default;
 //         font-weight: normal;
 //         font-style: normal;
 //     }
+// }
+// @if $slick-font-family == "FontAwesome" {
+    // @font-face {
+    //     font-family: "FontAwesome";
+    //     src: slick-font-url("./fonts/fontawesome-webfont.eot");
+    //     src: slick-font-url("./fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), slick-font-url("./fonts/fontawesome-webfont.woff") format("woff"), slick-font-url("./fonts/fontawesome-webfont.ttf") format("truetype"), slick-font-url("./fonts/fontawesome-webfont.svg") format("svg");
+    //     font-weight: normal;
+    //     font-style: normal;
+    // }
 // }
 
 

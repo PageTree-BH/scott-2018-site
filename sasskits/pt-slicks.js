@@ -94,6 +94,8 @@ PT.buildSlicks = function() {
         slidesToScroll: 1,
         mobileFirst: true,
         draggable:true,
+        nextArrow: '<button class="pt-slick-next"><i class="fa fa-angle-right"></i></button>',
+        prevArrow: '<button class="pt-slick-prev"><i class="fa fa-angle-left"></i></button>',
         responsive: [
             {
                 breakpoint: 768,
@@ -172,7 +174,9 @@ PT.buildSlicks = function() {
             speed: 1000,
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: true
+            autoplay: true,
+            nextArrow: '<button class="pt-slick-next"><i class="fa fa-angle-right"></i></button>',
+            prevArrow: '<button class="pt-slick-prev"><i class="fa fa-angle-left"></i></button>'
         }
 
 
@@ -230,6 +234,8 @@ PT.buildSlicks = function() {
             swipeToSlide:false,
             touchMove:false,
             lazyLoad: "ondemand",
+            nextArrow: '<button class="pt-slick-next"><i class="fa fa-angle-right"></i></button>',
+            prevArrow: '<button class="pt-slick-prev"><i class="fa fa-angle-left"></i></button>',
             // lazyLoad: "progressive",
             // infinite: true,
             // autoplaySpeed: 3000,
