@@ -28,7 +28,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 1.14238e+06,
 		"inputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/g-big-letter-art-wShadow.png",
 		"outputAbbreviatedPath": "\/_deploy\/assets\/homeplate\/g-big-letter-art-wShadow.png",
 		"outputPathIsOutsideProject": 0,
@@ -268,47 +268,47 @@
 		},
 	"\/_deploy\/assets\/js\/jquery.jpanelmenu.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_deploy\/assets\/js\/jquery.jpanelmenu.js",
-		"outputAbbreviatedPath": "\/_deploy\/assets\/jquery.jpanelmenu.min.js",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/js\/jquery.jpanelmenu.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/_deploy\/assets\/js\/modernizr-3.3.1.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_deploy\/assets\/js\/modernizr-3.3.1.min.js",
-		"outputAbbreviatedPath": "\/_deploy\/assets\/modernizr-3.3.1.min.min.js",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/js\/modernizr-3.3.1.min.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/_deploy\/assets\/js\/modernizr-custom-slim.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_deploy\/assets\/js\/modernizr-custom-slim.js",
-		"outputAbbreviatedPath": "\/_deploy\/assets\/modernizr-custom-slim.min.js",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/js\/modernizr-custom-slim.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/_deploy\/assets\/js\/picturefill.min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_deploy\/assets\/js\/picturefill.min.js",
-		"outputAbbreviatedPath": "\/_deploy\/assets\/picturefill.min.min.js",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/js\/picturefill.min.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/_deploy\/assets\/js\/site.min.js": {
 		"fileType": 64,
@@ -332,14 +332,14 @@
 		},
 	"\/_deploy\/assets\/local\/PT-JS-LOCAL-BUNDLE.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_deploy\/assets\/local\/PT-JS-LOCAL-BUNDLE.min.js",
-		"outputAbbreviatedPath": "\/_deploy\/assets\/local\/min\/PT-JS-LOCAL-BUNDLE.min-min.js",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/js\/PT-JS-LOCAL-BUNDLE.min.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/_deploy\/assets\/pt-base-v9.min.js": {
 		"fileType": 64,
@@ -375,11 +375,11 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_deploy\/assets\/site.min.js",
-		"outputAbbreviatedPath": "\/_deploy\/assets\/site.min.min.js",
+		"outputAbbreviatedPath": "\/_deploy\/assets\/js\/site.min.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/_deploy\/index.html": {
 		"fileType": 8192,
